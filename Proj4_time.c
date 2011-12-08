@@ -136,6 +136,7 @@ void get_time(struct tm *t)
                         osec = t->tm_sec;
                         n++;
                 }
+                //Put osec instead of n, as osec plays much more role on time
         } while (osec < 0);
 
         /* Read the other registers. */
